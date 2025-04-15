@@ -1,24 +1,29 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import styled from 'styled-components';
+import GlobalGrid from './components/GlobalGrid';
+import Header from './components/header';
+import Navigation from './components/navigation';
+import GlobalStyle from './components/globalStyles';
+import RotatingPanel from './components/rotatingPanel';
+import Items from './components/items';
+import Cupes from './components/cupes';
+import Footer from './components/footer';
+
+const MainPlate = styled.div`
+`;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <MainPlate>
+      <GlobalStyle />
+        <Header />
+        <Navigation />
+        <RotatingPanel />
+      <Items />
+      <Cupes/>
+      <Footer/>
+    </MainPlate>
   );
 }
 
