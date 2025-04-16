@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GFZ/static/css/main.33353f0b.css",
-    "main.js": "/GFZ/static/js/main.93c457bc.js",
+    "main.js": "/GFZ/static/js/main.7b642370.js",
     "static/media/image.png": "/GFZ/static/media/image.5edbc69c0bf7efc97fe8.png",
     "static/media/image62.png": "/GFZ/static/media/image62.912fd88f4b6ae1571740.png",
     "static/media/Knives.png": "/GFZ/static/media/Knives.cc22ae9f779d56a3910d.png",
@@ -17,10 +17,10 @@
     "static/media/logo.svg": "/GFZ/static/media/logo.de93971b91b703d4c6d0539454a2ceba.svg",
     "index.html": "/GFZ/index.html",
     "main.33353f0b.css.map": "/GFZ/static/css/main.33353f0b.css.map",
-    "main.93c457bc.js.map": "/GFZ/static/js/main.93c457bc.js.map"
+    "main.7b642370.js.map": "/GFZ/static/js/main.7b642370.js.map"
   },
   "entrypoints": [
     "static/css/main.33353f0b.css",
-    "static/js/main.93c457bc.js"
+    "static/js/main.7b642370.js"
   ]
 }
